@@ -7,13 +7,13 @@ This repository contains MATLAB scripts for Digital Signal Processing (DSP) Lab 
 
 ### Section 1-1: Generating a Continuous-Time Sinusoidal Wave  
 A continuous-time sinusoidal wave is generated using the mathematical equation:  
-\[
-x(t) = A \sin(2pi f t + &phi)
-\]
-The amplitude (\( A \)) is set to 5, the frequency (\( f \)) to 1 Hz, and the phase shift (\( \phi \)) to zero. The signal is visualized using both **plot** (for a continuous representation) and **stem** (for a discrete-time representation), demonstrating the difference between continuous and sampled signals.  
+
+x(t) = A sin(2pi f t + &phi)
+
+The amplitude A  is set to 5, the frequency f to 1 Hz, and the phase shift phi to zero. The signal is visualized using both **plot** (for a continuous representation) and **stem** (for a discrete-time representation), demonstrating the difference between continuous and sampled signals.  
 
 ### Section 1-2: Adding Random Noise  
-To simulate real-world signal distortions, random noise is added to the generated sinusoidal wave. The noise is uniformly distributed in the range \([-0.5, 0.5]\) and is summed with the original signal to create a noisy waveform. The effect of noise is analyzed by plotting both the original and noisy signals, allowing for a visual comparison of the distortion introduced by the random fluctuations.  
+To simulate real-world signal distortions, random noise is added to the generated sinusoidal wave. The noise is uniformly distributed in the range [-0.5, 0.5] and is summed with the original signal to create a noisy waveform. The effect of noise is analyzed by plotting both the original and noisy signals, allowing for a visual comparison of the distortion introduced by the random fluctuations.  
 
 ### Section 1-3: Moving Average Filtering (Using `conv`)  
 A moving average filter is applied to the noisy sinusoidal signal to reduce high-frequency noise and smooth the waveform. The filter is implemented using convolution with a uniform kernel, where the window size determines the level of smoothing. The filtered signal is plotted alongside the noisy signal to illustrate the effectiveness of the moving average filter in noise reduction.  
