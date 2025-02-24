@@ -1,5 +1,5 @@
 # DSP Lab - Homework 1  
-aa
+
 ## Overview  
 This repository contains MATLAB scripts for Digital Signal Processing (DSP) Lab Homework 1, covering fundamental signal processing concepts such as sinusoidal wave generation, noise addition, and filtering.  
 
@@ -8,7 +8,7 @@ This repository contains MATLAB scripts for Digital Signal Processing (DSP) Lab 
 ### Section 1-1: Generating a Continuous-Time Sinusoidal Wave  
 A continuous-time sinusoidal wave is generated using the mathematical equation:  
 \[
-x(t) = A \sin(2pi f t + \(\phi\))
+x(t) = A \sin(2pi f t + &phi)
 \]
 The amplitude (\( A \)) is set to 5, the frequency (\( f \)) to 1 Hz, and the phase shift (\( \phi \)) to zero. The signal is visualized using both **plot** (for a continuous representation) and **stem** (for a discrete-time representation), demonstrating the difference between continuous and sampled signals.  
 
