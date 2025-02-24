@@ -24,4 +24,6 @@ In this section, the moving average filter is implemented using the `filter` fun
 ### Section 1-5: Sinusoidal Sequence Generation Using a Difference Equation  
 A discrete-time sinusoidal sequence is generated using a second-order difference equation. This method utilizes a recursive relation where each sample is computed based on previous values, avoiding the need for direct sine function evaluation. The system is implemented using the `filter` function with appropriately chosen coefficients, and the generated sequence is visualized using a stem plot to illustrate its discrete nature.  
 
+## Project Repository
+Check out the project repository: [DSP-Lab](https://github.com/mahdi-mahjouri/DSP-Lab)
 
