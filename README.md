@@ -8,7 +8,7 @@ This repository contains MATLAB scripts for Digital Signal Processing (DSP) Lab 
 ### Section 1-1: Generating a Continuous-Time Sinusoidal Wave  
 A continuous-time sinusoidal wave is generated using the mathematical equation:  
 \[
-x(t) = A \sin(2\pi f t + \phi)
+x(t) = A \sin(2\pi f t + \(\phi\))
 \]
 The amplitude (\( A \)) is set to 5, the frequency (\( f \)) to 1 Hz, and the phase shift (\( \phi \)) to zero. The signal is visualized using both **plot** (for a continuous representation) and **stem** (for a discrete-time representation), demonstrating the difference between continuous and sampled signals.  
 
@@ -24,8 +24,4 @@ In this section, the moving average filter is implemented using the `filter` fun
 ### Section 1-5: Sinusoidal Sequence Generation Using a Difference Equation  
 A discrete-time sinusoidal sequence is generated using a second-order difference equation. This method utilizes a recursive relation where each sample is computed based on previous values, avoiding the need for direct sine function evaluation. The system is implemented using the `filter` function with appropriately chosen coefficients, and the generated sequence is visualized using a stem plot to illustrate its discrete nature.  
 
-## How to Run the Code  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/DSP-Lab-HW1.git
 
